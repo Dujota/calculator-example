@@ -78,7 +78,7 @@ $(document).ready(function() {
     operator = $(this).val();
 
     // render that to the operator result h1
-    $('#operator').text(operator);
+    $('#operator').text($(this).text());
   });
 
   $('.equal').on('click', function(evt) {
